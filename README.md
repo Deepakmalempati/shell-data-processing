@@ -1,5 +1,10 @@
 # Module 1 - Shell Data Processing
 
+1. curl command used to get data - ```curl "url"```
+2. command for most common words and sorted - ```tr ' ' '\12' < data.txt | sort | uniq -c | sort -nr```
+
+## My notes
+
 In this module i have worked on a simple bigdata process to find out words that apprear most frequently in a webpage.
 
 ### Step 1 - Retriving data from URL
@@ -24,9 +29,9 @@ In this module i have worked on a simple bigdata process to find out words that 
 
 ### Important Bash Commands
 - Bash redirect is used for redirecting contents of the directory into a file.  
-Example: ls > data.txt
+Example: ```ls > data.txt```
 - Bash redirect and append is used to append new data instead of overwriting the data  
-Example: ls >> data.txt
+Example: ```ls >> data.txt```
 - ```ls``` is used to show list of contents in the directory
 - ```cat``` command is used for displaying contents
 - to copy something in Bash use CTRL+SHIFT+C
