@@ -1,6 +1,6 @@
 # Module 1 - Shell Data Processing
 
-1. curl command used to get data - ```curl "url"```
+1. curl command used to get data - ```curl "https://en.wikipedia.org/wiki/COVID-19_pandemic"```
 2. command for most common words and sorted - ```tr ' ' '\12' < data.txt | sort | uniq -c | sort -nr```
 
 ## My notes
